@@ -1,0 +1,17 @@
+{
+    "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "manifest_version": 2,
+  "name": "Fixing VHL",
+    "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://m3a.vhlcentral.com/*"
+      ],
+	"js": ["frenchFlashcards.js", "jquery-2.2.1.min.js"]
+    }
+  ]
+}
+
